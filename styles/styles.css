@@ -73,10 +73,12 @@ nav .navbar_links ul li {
   list-style-type: none;
   margin-left: 20px;
   padding: 10px;
+  font-weight: 500;
 }
 
 nav .navbar_links ul li:hover {
-  background-color: hotpink;
+  color: #2a6592;
+  cursor: pointer;
 }
 
 /*navbar end*/

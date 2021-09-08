@@ -34,12 +34,15 @@ nav {
       flex-direction: row;
       justify-content: space-around;
       justify-content: center;
+
       li {
         list-style-type: none;
         margin-left: 20px;
         padding: 10px;
+        font-weight: 500;
         &:hover {
-          background-color: hotpink;
+          color: #2a6592;
+          cursor: pointer;
         }
       }
     }
