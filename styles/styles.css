@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: #0066b2;
 }
 
@@ -89,7 +89,6 @@ nav .navbar_links ul {
 nav .navbar_links ul li {
   list-style-type: none;
   margin-left: 10px;
-  font-weight: 500;
 }
 
 nav .navbar_links ul li a {

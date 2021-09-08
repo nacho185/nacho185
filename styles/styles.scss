@@ -11,7 +11,7 @@ $secondary-font: "Quattrocento", serif;
   margin: 0;
 }
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: $primary-font;
   background-color: $background-color;
 }
 .active {
@@ -56,7 +56,6 @@ nav {
       li {
         list-style-type: none;
         margin-left: 10px;
-        font-weight: 500;
 
         a {
           text-decoration: none;
