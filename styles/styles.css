@@ -76,7 +76,12 @@ nav .navbar_links ul li {
   font-weight: 500;
 }
 
-nav .navbar_links ul li:hover {
+nav .navbar_links ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav .navbar_links ul li a:hover {
   color: #2a6592;
   cursor: pointer;
 }

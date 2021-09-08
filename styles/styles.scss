@@ -40,9 +40,13 @@ nav {
         margin-left: 20px;
         padding: 10px;
         font-weight: 500;
-        &:hover {
-          color: #2a6592;
-          cursor: pointer;
+        a {
+          text-decoration: none;
+          color: #333;
+          &:hover {
+            color: #2a6592;
+            cursor: pointer;
+          }
         }
       }
     }
