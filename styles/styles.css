@@ -21,6 +21,7 @@ body {
 /*end global*/
 /*navbar start*/
 nav {
+  background-color: transparent;
   padding: 15px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +30,6 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: transparent;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   position: fixed;
@@ -42,16 +42,26 @@ nav .branding {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  text-align: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+}
+
+nav .branding .branding_name {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8em;
+}
+
+nav .branding .branding_description {
+  font-family: "Quattrocento", serif;
 }
 
 nav .navbar_links {
@@ -71,15 +81,15 @@ nav .navbar_links ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav .navbar_links ul li {
   list-style-type: none;
-  margin-left: 20px;
+  margin-left: 10px;
   font-weight: 500;
-  margin-top: 6px;
 }
 
 nav .navbar_links ul li a {

@@ -1,5 +1,7 @@
 /*variables*/
 $background-color: #0066b2;
+$primary-font: "Oswald", sans-serif;
+$secondary-font: "Quattrocento", serif;
 /*end variables*/
 /*start global*/
 *,
@@ -20,10 +22,10 @@ body {
 
 /*navbar start*/
 nav {
+  background-color: transparent;
   padding: 15px 0;
   display: flex;
   flex-direction: row;
-  background-color: transparent;
   justify-content: space-around;
   position: fixed;
   top: 0;
@@ -31,9 +33,17 @@ nav {
   right: 0;
   .branding {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    text-align: center;
     justify-content: start;
+    .branding_name {
+      font-family: $primary-font;
+      font-size: 1.8em;
+    }
+    .branding_description {
+      font-family: $secondary-font;
+    }
   }
   .navbar_links {
     display: flex;
@@ -42,12 +52,12 @@ nav {
     ul {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      align-items: center;
       li {
         list-style-type: none;
-        margin-left: 20px;
+        margin-left: 10px;
         font-weight: 500;
-        margin-top: 6px;
+
         a {
           text-decoration: none;
           color: #333;
