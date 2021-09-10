@@ -1,6 +1,6 @@
 /*variables*/
-$background-color: #efefef;
-$primary-color: #3f618b;
+$background-color: #047aed;
+$primary-color: #fff;
 $secondary-color: #c66b3d;
 $primary-font: "Oswald", sans-serif;
 $secondary-font: "Quattrocento", serif;
@@ -14,6 +14,7 @@ $secondary-font: "Quattrocento", serif;
 }
 body {
   background-color: $background-color;
+  color: $primary-color;
 }
 h1 {
   font-family: $primary-font;
@@ -23,7 +24,7 @@ p {
 }
 .active {
   background-color: #fff;
-  color: $primary-color !important;
+  color: $background-color !important;
 }
 .container {
   width: 80%;
@@ -70,11 +71,11 @@ nav {
 
         a {
           text-decoration: none;
-          color: #333;
+          color: $primary-color;
           padding: 6px 15px;
           border-radius: 20px;
           &:hover {
-            color: $primary-color;
+            color: $background-color;
             cursor: pointer;
             background-color: #fff;
           }
@@ -86,6 +87,8 @@ nav {
 /*navbar end*/
 /*main page*/
 .main_front-page {
+  background-image: url("../images/background.jpeg");
+  background-position: center;
   .explanation_text {
     display: grid;
     height: 100vh;
