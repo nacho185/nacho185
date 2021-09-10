@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #047aed;
+  background-color: #003366;
   color: #fff;
 }
 
@@ -23,7 +23,7 @@ p {
 
 .active {
   background-color: #fff;
-  color: #047aed !important;
+  color: #003366 !important;
 }
 
 .container {
@@ -112,7 +112,7 @@ nav .navbar_links ul li a {
 }
 
 nav .navbar_links ul li a:hover {
-  color: #047aed;
+  color: #003366;
   cursor: pointer;
   background-color: #fff;
 }
@@ -145,6 +145,6 @@ nav .navbar_links ul li a:hover {
   padding: 10px;
   border-radius: 30px;
   text-decoration: none;
-  color: #047aed;
+  color: #003366;
 }
 /*# sourceMappingURL=styles.css.map */
