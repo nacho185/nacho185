@@ -146,5 +146,7 @@ nav .navbar_links ul li a:hover {
   border-radius: 30px;
   text-decoration: none;
   color: #003366;
+  position: relative;
+  bottom: 50px;
 }
 /*# sourceMappingURL=styles.css.map */
