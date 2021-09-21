@@ -30,6 +30,11 @@ p {
   width: 80%;
   margin: 0 auto;
 }
+
+.scrolled {
+  transition: 0.3s ease-in-out;
+  background: $secondary-color !important;
+}
 /*end global*/
 
 /*navbar start*/
