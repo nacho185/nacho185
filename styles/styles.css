@@ -34,7 +34,7 @@ p {
 .scrolled {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  background: #c66b3d !important;
+  background: #555 !important;
 }
 
 /*end global*/
