@@ -1,9 +1,11 @@
 /*variables*/
-$background-color: #003366;
-$primary-color: #fff;
+$background-color: #ebddcc ; 
+$primary-color: #121212;
 $secondary-color: #c66b3d;
-$primary-font: "Oswald", sans-serif;
-$secondary-font: "Quattrocento", serif;
+$primary-font:  sans-serif; /*original "Oswald",*/
+$secondary-font:sans-serif ;/* original "Quattrocento", serif*/
+$scrolled-color:#fff;
+/*https://99designs.com/blog/tips/website-color-schemes/  go to number 7 for color scheme*/
 /*end variables*/
 /*start global*/
 *,
@@ -33,8 +35,10 @@ p {
 
 .scrolled {
   transition: 0.3s ease-in-out;
-  background: #555 !important;
+  background: $scrolled-color !important;
+  
 }
+
 /*end global*/
 /*scrollbar side*/
 /* width */
