@@ -1,9 +1,12 @@
-###  Hi there 👋, my name is Ignacio Aguirre
-####  I'm a Front-end Web Developer
-I made this repository to allow you to experience my best projects in the form of a website.
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://nacho185.github.io/Portfolio--V1/)
+I'm Ignacio Aguirre
 
-Skills: <-- HTML5 / CSS3 / JS(ES5/ES6) / JQUERY /SASS /React JS -->
+I'm a Computer Science student and front-end developer based in Houston, TX. I enjoy turning ideas into responsive, usable websites using clean code and modern tools.
 
-- 🔭 I’m currently working on coding proficiently in React JS, and building clean easy to read reusable components. 
-- ⚡ Fun fact: I love looking at the final product of each website and witnessing how it becomes usable, and responsive for every device. 
+Skills: HTML5, CSS3, JavaScript (ES6+), SCSS, jQuery, Git, and React JS
+
+I focus on building interfaces that are not only functional but also fast, clean, and mobile-friendly.
+
+Always learning. Always building.
+
+Contact: ignacio13542@gmail.com | ignacio.pages.dev
+
