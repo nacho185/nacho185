@@ -17,7 +17,7 @@ clean code, clear docs, and tests. I build with **Python** (pandas/pytest) and t
 
 ## Links
 - Portfolio: **https://ignacio.pages.dev**
-- Resume (PDF viewer): **https://nacho185.github.io/resume-dev/**
+- Resume (PDF viewer): **https://nacho185.github.io/Resume-dev/**
 - Email: **ignacio13542@gmail.com**
 
 _Always learning. Always shipping._
