@@ -12,7 +12,7 @@ clean code, clear docs, and tests. I build with **Python** (pandas/pytest) and t
 **Currently:** CS @ UH • day job in quality control/inspection • building a tiny ALU as a learning project.
 
 ## Tech I use
-**Python** (pandas, argparse, pytest) • **JavaScript (ES6+)** • **HTML/CSS/SCSS** • **Git/GitHub** •
+**Python** (pandas, argparse) • **JavaScript (ES6+)** • **HTML/CSS/SCSS** • **Git/GitHub** •
 **GitHub Actions (CI)** • **Linux (basic)**
 
 ## Links
